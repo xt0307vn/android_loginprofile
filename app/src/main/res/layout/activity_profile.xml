@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    app:circularflow_defaultRadius="10dp"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#00BCD4"
+            android:id="@+id/toolbar">
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/left_arrow"
+                    android:background="#00bcd4"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="Back"
+                    android:textSize="18sp"
+                    android:paddingTop="15dp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="Profile"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+        
+    </com.google.android.material.appbar.AppBarLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fff">
+    </View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="#00bcd4">
+
+
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/profile_customborderavatar"
+                android:src="@drawable/ic_baseline_person"/>
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/profile_custombordercircle"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="-45dp"
+                android:layout_marginRight="-45dp"
+                android:text="3"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="Nguyễn Xuân Trường"
+            android:textAlignment="center"
+            
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="30dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="125"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="35sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Friends"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_marginTop="-10dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="7dp"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="250"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="35sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Fllowers"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_marginTop="-10dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/profile_customborderinput"
+            android:layout_margin="30dp"
+            android:layout_centerVertical="true"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email : xt0307@gmail.com"
+                android:padding="15dp"
+                android:textColor="#00bcd4"
+                android:textSize="20sp"
+                android:background="@null"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textColor="#00bcd4"
+                android:textSize="20sp"
+                android:background="@drawable/profile_customborderinput1"
+                android:text="phone : 0373210237"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_customborderinput1"
+                android:text="sky : no"
+                android:layout_marginTop="-3dp"
+                android:padding="15dp"
+                android:textColor="#00bcd4"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="web : no"
+                android:padding="15dp"
+                android:textColor="#00bcd4"
+                android:textSize="20sp"
+                android:background="@null"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
