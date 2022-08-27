@@ -181,24 +181,40 @@
                 android:textColor="#00bcd4"
                 android:textSize="20sp"
                 android:background="@null"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#00bcd4"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
                 android:textColor="#00bcd4"
                 android:textSize="20sp"
-                android:background="@drawable/profile_customborderinput1"
+                android:background="@null"
                 android:text="phone : 0373210237"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#00bcd4"/>
+
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/profile_customborderinput1"
+                android:background="@null"
                 android:text="sky : no"
                 android:layout_marginTop="-3dp"
                 android:padding="15dp"
                 android:textColor="#00bcd4"
                 android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#00bcd4"/>
 
             <EditText
                 android:layout_width="match_parent"
