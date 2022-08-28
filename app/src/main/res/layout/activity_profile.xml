@@ -21,23 +21,23 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="2">
+            android:layout_weight="3">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
+                android:background="#00bcd4"
                 android:drawableLeft="@drawable/ic_arrow_back"
                 android:text="Back"
                 android:textColor="#fff"
-                android:textStyle="bold"
                 android:textSize="18dp"
-                android:background="#00bcd4"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -57,17 +57,17 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:gravity="right"
             >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scaleY="1.2"
-                android:scaleX="1.2"
                 android:layout_marginRight="10dp"
                 android:background="#00BCD4"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
                 android:src="@drawable/setting" />
 
         </RelativeLayout>
@@ -202,6 +202,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:hint="email :"
                 android:text="email : xt0307@gmail.com"
                 android:padding="15dp"
                 android:textColor="#00bcd4"
@@ -219,6 +220,7 @@
                 android:textColor="#00bcd4"
                 android:textSize="20sp"
                 android:background="@null"
+                android:hint="phone :"
                 android:text="phone : 0373210237"/>
 
             <View
@@ -231,6 +233,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
+                android:hint="sky :"
                 android:text="sky : no"
                 android:layout_marginTop="-3dp"
                 android:padding="15dp"
@@ -245,6 +248,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:hint="web :"
                 android:text="web : no"
                 android:padding="15dp"
                 android:textColor="#00bcd4"
