@@ -19,6 +19,8 @@
         android:paddingBottom="10dp">
 
         <RelativeLayout
+            android:id="@+id/back"
+            android:onClick="click_back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="3">
@@ -254,6 +256,7 @@
                 android:textColor="#00bcd4"
                 android:textSize="20sp"
                 android:background="@null"/>
+
 
         </LinearLayout>
     </RelativeLayout>
